@@ -1,0 +1,157 @@
+.container{padding:0px 10px 0px;}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav{text-align:right;}
+nav{
+  font-family: barlow condensed;
+  padding-bottom:55px;
+
+}
+main{
+	padding-bottom:50px;
+	
+}
+ul {
+  list-style-type: none;
+  padding-right: 5px;
+  background-color:white;
+  margin-top:-95px;
+  font-size:20px;
+}
+li {
+  float:right;
+}
+
+li a {
+	font-style:italic;
+  color: black;
+  padding:0px 14px 0px;
+  text-decoration: none;
+  font-weight:bold;
+  font-size:25px;
+  cursor:pointer;
+}
+li a:hover{
+	background-color:#f8f8ff;
+	border-radius:10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-wrapper {
+  flex: 1;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.para-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right:39px;
+}
+
+.place-details{
+  flex: 1;
+  padding: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-width:420px;
+  border-radius:10px;
+  margin-top:-100px;
+  background-color:white;
+}
+/* conatiner 2 */
+.image-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.place-details1{
+  flex: 1;
+  padding: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-width:420px;
+  border-radius:10px;
+  margin-top:-70px;
+  background-color:white;
+}
+.image-wrapper {
+  flex: 1;
+  padding: 10px;
+}
+
+footer {
+    background-color:white;
+    color:Black;
+    padding: 20px;
+	text-align:left;
+	font-size:15px;
+	font-weight:700;
+		font-family: barlow condensed,Arial,Verdana,sans-serif;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+	margin-left:0px;
+}
+.dropbtn {
+  text-decoration: none;
+    color:rgb(66, 132, 190)
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #white;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+    margin-left:3px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white;}

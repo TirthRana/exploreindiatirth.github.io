@@ -1,0 +1,209 @@
+.container{padding:0px 10px 0px;}
+h1{background-color: cream;}
+nav{text-align:right;}
+nav{
+  font-family: barlow condensed;
+  padding-bottom:35px;
+
+}
+.dropbtn {
+  text-decoration: none;
+    color:rgb(66, 132, 190)
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #white;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+    margin-left:3px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white;}
+ul {
+  list-style-type: none;
+  padding-right: 5px;
+  background-color:white;
+  margin-top:-95px;
+  font-size:20px;
+}
+li {
+  float:right;
+}
+
+li a {
+	font-style:italic;
+  color: black;
+  padding:0px 14px 0px;
+  text-decoration: none;
+  font-weight:bold;
+  font-size:25px;
+  cursor:pointer;
+}
+#indiaimage {
+  position: relative;
+}
+
+.overlay {
+	margin:0px;
+	padding:10px;
+  position: absolute;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  top:40%;
+  left:32.75%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: absolute;
+  height: absolute ;
+  font-style:italic;
+	opacity:0.75;
+  background-color: #fff;
+  color: black; /* Text color */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+  border: 2px solid black;
+}
+
+/* Additional styling for the text */
+
+.overlay p {
+  font-size: 40px;
+}
+#india{
+	background-color:white;	
+	padding-top:0px;
+	
+}
+#india p {
+	font-size:30px;
+	text-align:center;
+	font-family:bold;
+	margin-bottom:-30px;
+	font-weight: 700;
+	font-family: barlow condensed,Arial,Verdana,sans-serif;
+}
+#indiaimage{
+	padding-top:60px;
+	
+}
+li a:hover{
+	background-color:#f8f8ff;
+	border-radius:10px;
+}
+p{clear: left}
+{
+	box-sizing: border-box;
+}
+.column{
+	float:left;
+	width:32.6%;
+	padding:5px;
+	margin-top:42px;
+}
+.row::after{
+	content:"";
+	clear:both;
+	display: table;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-box {
+  position: absolute;
+  margin-top:-100px;
+  top: 0px; /* Adjust as per your requirement */
+  left: 20px; /* Adjust as per your requirement */
+  width: 200px; /* Adjust as per your requirement */
+  height: 200px; /* Adjust as per your requirement */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as per your requirement */
+  z-index: 1;
+}
+iframe{
+	margin-left:0px;
+	margin-left:435px;
+}
+footer {
+    color:Black;
+    padding: 20px;
+	text-align:left;
+	font-size:15px;
+	font-weight:700;
+		font-family: barlow condensed,Arial,Verdana,sans-serif;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+	margin-left:0px;
+}
+.para-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-bottom:40px;
+  font-family: barlow condensed,Arial,Verdana,sans-serif;
+  line-height: 1.5;
+  padding-top:20px;
+}
+.place-details{
+  flex: 1;
+  padding:10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-width:450px;
+  border-radius:5px;
+  margin-top:-50px;
+  background-color:white;
+  border:1px solid black;
+}
+.para-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-bottom:80px;
+  font-family: barlow condensed,Arial,Verdana,sans-serif;
+  line-height: 1.5;
+}
+.place-details2{
+  flex: 1;
+  padding:10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-width:450px;
+  margin-top:-50px;
+  background-color:white;
+  border:1px solid black;
+}
